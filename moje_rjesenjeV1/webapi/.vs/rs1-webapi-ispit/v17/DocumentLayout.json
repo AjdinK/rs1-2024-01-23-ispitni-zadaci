@@ -1,0 +1,332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\endpoints\\studentendpoints\\studentsnimiendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\endpoints\\studentendpoints\\studentsnimiendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\endpoints\\studentendpoints\\studentsnimirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\endpoints\\studentendpoints\\studentsnimirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\endpoints\\studentendpoints\\studentmaticnaovjeriendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\endpoints\\studentendpoints\\studentmaticnaovjeriendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\endpoints\\studentendpoints\\studentmaticnaovjerirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\endpoints\\studentendpoints\\studentmaticnaovjerirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\endpoints\\studentendpoints\\studentmaticnagetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\endpoints\\studentendpoints\\studentmaticnagetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\data\\upisakgodina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\data\\upisakgodina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\endpoints\\studentendpoints\\studentmaticnagetendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\endpoints\\studentendpoints\\studentmaticnagetendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\endpoints\\studentendpoints\\studentmaticnadodajrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\endpoints\\studentendpoints\\studentmaticnadodajrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\endpoints\\studentendpoints\\studentmaticnadodajendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\endpoints\\studentendpoints\\studentmaticnadodajendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\data\\akademskagodina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\data\\akademskagodina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\endpoints\\studentendpoints\\studentbrisiendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\endpoints\\studentendpoints\\studentbrisiendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\modul2\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\modul2\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\endpoints\\ispitendpoints\\dodaj\\ispitdodajendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\endpoints\\ispitendpoints\\dodaj\\ispitdodajendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\modul1_testnipodaci\\controllers\\testnipodacicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\modul1_testnipodaci\\controllers\\testnipodacicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|c:\\users\\loww\\downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\fit_api_examples\\data\\korisnickinalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28EF11E8-B233-416A-9F32-C12FE65D3FD5}|FIT_Api_Examples\\FIT_Api_Examples.csproj|solutionrelative:fit_api_examples\\data\\korisnickinalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentMaticnaOvjeriEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaOvjeriEndpoint.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaOvjeriEndpoint.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaOvjeriEndpoint.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaOvjeriEndpoint.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpisAkGodina.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Data\\UpisAkGodina.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Data\\UpisAkGodina.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Data\\UpisAkGodina.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Data\\UpisAkGodina.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentMaticnaGetResponse.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaGetResponse.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaGetResponse.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaGetResponse.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaGetResponse.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentMaticnaGetEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaGetEndpoint.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaGetEndpoint.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaGetEndpoint.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaGetEndpoint.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentSnimiRequest.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentSnimiRequest.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentSnimiRequest.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentSnimiRequest.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentSnimiRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentSnimiEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentSnimiEndpoint.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentSnimiEndpoint.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentSnimiEndpoint.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentSnimiEndpoint.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvxwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Program.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Program.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Program.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentMaticnaOvjeriRequest.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaOvjeriRequest.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaOvjeriRequest.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaOvjeriRequest.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaOvjeriRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentMaticnaDodajRequest.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaDodajRequest.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaDodajRequest.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaDodajRequest.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaDodajRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentMaticnaDodajEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaDodajEndpoint.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaDodajEndpoint.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaDodajEndpoint.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentMaticnaDodajEndpoint.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAywBMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentBrisiEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentBrisiEndpoint.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentBrisiEndpoint.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentBrisiEndpoint.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Endpoints\\StudentEndpoints\\StudentBrisiEndpoint.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvxEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Modul2\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Modul2\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Modul2\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Modul2\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AkademskaGodina.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Data\\AkademskaGodina.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Data\\AkademskaGodina.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Data\\AkademskaGodina.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Data\\AkademskaGodina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IspitDodajEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\IspitEndpoints\\Dodaj\\IspitDodajEndpoint.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Endpoints\\IspitEndpoints\\Dodaj\\IspitDodajEndpoint.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Endpoints\\IspitEndpoints\\Dodaj\\IspitDodajEndpoint.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Endpoints\\IspitEndpoints\\Dodaj\\IspitDodajEndpoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TestniPodaciController.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Modul1_TestniPodaci\\Controllers\\TestniPodaciController.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Modul1_TestniPodaci\\Controllers\\TestniPodaciController.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Modul1_TestniPodaci\\Controllers\\TestniPodaciController.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Modul1_TestniPodaci\\Controllers\\TestniPodaciController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAASwFMAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Data\\Student.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Data\\Student.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Data\\Student.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Data\\Student.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KorisnickiNalog.cs",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Data\\KorisnickiNalog.cs",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\Data\\KorisnickiNalog.cs",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\Data\\KorisnickiNalog.cs",
+              "RelativeToolTip": "FIT_Api_Examples\\Data\\KorisnickiNalog.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA9wCAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T11:23:15.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\appsettings.json",
+              "RelativeDocumentMoniker": "FIT_Api_Examples\\appsettings.json",
+              "ToolTip": "C:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenje\\webapi\\FIT_Api_Examples\\appsettings.json",
+              "RelativeToolTip": "FIT_Api_Examples\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-26T11:23:15.637Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
