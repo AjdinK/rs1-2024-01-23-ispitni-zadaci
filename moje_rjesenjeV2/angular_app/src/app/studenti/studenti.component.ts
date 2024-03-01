@@ -9,6 +9,7 @@ import {
 } from '../Endpoints/student-endpoints/student-snimi-endpoint';
 import { OpstinaGetAllEndpoint } from '../Endpoints/opstina-endpoints/opstina-get-all-endpoint';
 import { AutentifikacijaHelper } from '../_helpers/autentifikacija-helper';
+import { StudentBrisiEndpoint } from '../Endpoints/student-endpoints/student-brisi-endpoint';
 declare function porukaSuccess(a: string): any;
 declare function porukaError(a: string): any;
 
@@ -39,7 +40,8 @@ export class StudentiComponent implements OnInit {
     private httpKlijent: HttpClient,
     private router: Router,
     private dataService: DataService,
-    private opstinaGetAllEndpoint: OpstinaGetAllEndpoint
+    private opstinaGetAllEndpoint: OpstinaGetAllEndpoint,
+    private studentBrisiEndpoint: StudentBrisiEndpoint
   ) {}
 
   testirajWebApi(): void {
@@ -99,5 +101,21 @@ export class StudentiComponent implements OnInit {
 
   otvoriAdd() {
     this.router.navigate(['/student-add']);
+  }
+
+  brisi(s: any) {
+    this.studentBrisiEndpoint.obradi(s.id).subscribe({
+      next: (x) => {
+        this.testirajWebApi();
+        porukaSuccess('Uspjesno studentBrisiEndpoint....');
+      },
+      error: (x) => {
+        porukaError('Error fetchOpstina + ' + x.error);
+      },
+    });
+  }
+
+  otvoriMaticna(s: number) {
+    this.router.navigate(['/student-maticnaknjiga', s]);
   }
 }

@@ -23,13 +23,14 @@ namespace FIT_Api_Examples.Modul2.Controllers
             this._dbContext = dbContext;
         }
 
-      
+
 
         [HttpGet]
         public ActionResult<List<Student>> GetAll(string ime_prezime)
         {
             var data = _dbContext.Student
                 .Include(s => s.opstina_rodjenja.drzava)
+                .Where(s => !s.JelObrisan)
                 .Where(x => ime_prezime == null || (x.ime + " " + x.prezime).StartsWith(ime_prezime) || (x.prezime + " " + x.ime).StartsWith(ime_prezime))
                 .OrderByDescending(s => s.id)
                 .AsQueryable();
