@@ -25,6 +25,9 @@ export class StudentiComponent implements OnInit {
   filter_ime_prezime: boolean;
   filter_opstina: boolean;
 
+  filter_opstina_select_value: number;
+  filter_opstina_select: boolean;
+
   odabraniStudent: StudentSnimiRequest | null = null;
   opstinaPodaci: any;
   modalTitle: string = '';
@@ -35,7 +38,8 @@ export class StudentiComponent implements OnInit {
   constructor(
     private httpKlijent: HttpClient,
     private router: Router,
-    private dataService: DataService
+    private dataService: DataService,
+    private opstinaGetAllEndpoint: OpstinaGetAllEndpoint
   ) {}
 
   testirajWebApi(): void {
@@ -51,6 +55,19 @@ export class StudentiComponent implements OnInit {
 
   ngOnInit(): void {
     this.testirajWebApi();
+    this.fetchOpstina();
+  }
+
+  private fetchOpstina() {
+    this.opstinaGetAllEndpoint.obradi().subscribe({
+      next: (x) => {
+        this.opstinaPodaci = x;
+        porukaSuccess('Uspjesno fetchOpstina....');
+      },
+      error: (x) => {
+        porukaError('Error fetchOpstina + ' + x.error);
+      },
+    });
   }
 
   filtriaj() {
@@ -59,13 +76,20 @@ export class StudentiComponent implements OnInit {
     return this.studentPodaci.filter(
       (x: any) =>
         (!this.filter_ime_prezime ||
-          (x.ime + ' ' + x.prezime).startsWith(this.ime_prezime) ||
-          (x.prezime + ' ' + x.ime).startsWith(this.ime_prezime)) &&
+          (x.ime.toLowerCase() + ' ' + x.prezime.toLowerCase()).startsWith(
+            this.ime_prezime.toLowerCase()
+          ) ||
+          (x.prezime.toLowerCase() + ' ' + x.ime.toLowerCase()).startsWith(
+            this.ime_prezime.toLowerCase()
+          )) &&
         (!this.filter_opstina ||
-          x.opstina_rodjenja.description.startsWith(this.opstina))
+          x.opstina_rodjenja.description
+            .toLowerCase()
+            .startsWith(this.opstina.toLowerCase)) &&
+        (!this.filter_opstina_select ||
+          x.opstina_rodjenja.id == this.filter_opstina_select_value)
     );
   }
-
 
   otvoriEdit(s: StudentSnimiRequest) {
     this.dataService.setData(s);

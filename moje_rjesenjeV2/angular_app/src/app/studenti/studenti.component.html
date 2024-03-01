@@ -2,6 +2,7 @@
 <div>
   <input [(ngModel)]="filter_ime_prezime" type="checkbox" /> Filter by
   <span style="font-weight: bold">Ime / prezime</span> <br />
+
   <input
     [(ngModel)]="ime_prezime"
     [disabled]="!this.filter_ime_prezime"
@@ -12,7 +13,19 @@
   <span style="font-weight: bold">Opština rođenja</span> <br />
   <input [(ngModel)]="opstina" [disabled]="!this.filter_opstina" /><br />
   <hr />
+  <input [(ngModel)]="filter_opstina_select" type="checkbox" /> Filter by
+  <span style="font-weight: bold">Opština rođenja v2</span> <br />
+  <select
+    class="opstinaSelect"
+    [disabled]="!filter_opstina_select"
+    [(ngModel)]="this.filter_opstina_select_value"
+  >
+    <option *ngFor="let x of this.opstinaPodaci" [value]="x.id">
+      {{ x.opis }}
+    </option>
+  </select>
 </div>
+<br /><br />
 <button (click)="otvoriAdd()" class="form-label">Novi student</button>
 <table class="table table-warning">
   <tr>
@@ -30,7 +43,7 @@
       <td>{{ s.id }}</td>
       <td>{{ s.ime }}</td>
       <td>{{ s.prezime }}</td>
-      <td>{{ s.broj_indeksa? s.broj_indeksa : "IB...." }}</td>
+      <td>{{ s.broj_indeksa ? s.broj_indeksa : "IB...." }}</td>
       <td>
         {{ s.opstina_rodjenja != null ? s.opstina_rodjenja.drzava.naziv : "" }}
       </td>
