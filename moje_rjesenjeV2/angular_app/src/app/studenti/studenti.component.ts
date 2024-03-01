@@ -35,8 +35,6 @@ export class StudentiComponent implements OnInit {
   constructor(
     private httpKlijent: HttpClient,
     private router: Router,
-    private studentSnimiEndpoint: StudentSnimiEndpoint,
-    private opstinaGetAllEndpoint: OpstinaGetAllEndpoint,
     private dataService: DataService
   ) {}
 
@@ -53,7 +51,6 @@ export class StudentiComponent implements OnInit {
 
   ngOnInit(): void {
     this.testirajWebApi();
-    this.fetchOpstina();
   }
 
   filtriaj() {
@@ -69,21 +66,6 @@ export class StudentiComponent implements OnInit {
     );
   }
 
-  zatvori() {
-    this.odabraniStudent = null;
-  }
-
-  private fetchOpstina() {
-    this.opstinaGetAllEndpoint.obradi().subscribe({
-      next: (x) => {
-        this.opstinaPodaci = x;
-        porukaSuccess('Uspjesno fetchOpstina....');
-      },
-      error: (x) => {
-        porukaError('Error fetchOpstina + ' + x.error);
-      },
-    });
-  }
 
   otvoriEdit(s: StudentSnimiRequest) {
     this.dataService.setData(s);

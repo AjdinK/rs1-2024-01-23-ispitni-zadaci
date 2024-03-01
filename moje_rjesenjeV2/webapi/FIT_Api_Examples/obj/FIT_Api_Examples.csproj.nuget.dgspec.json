@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\New folder\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj": {}
+    "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenjeV2\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj": {}
   },
   "projects": {
-    "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\New folder\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj": {
+    "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenjeV2\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\New folder\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj",
+        "projectUniqueName": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenjeV2\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj",
         "projectName": "FIT_Api_Examples",
-        "projectPath": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\New folder\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj",
+        "projectPath": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenjeV2\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj",
         "packagesPath": "C:\\Users\\loww\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\New folder\\webapi\\FIT_Api_Examples\\obj\\",
+        "outputPath": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenjeV2\\webapi\\FIT_Api_Examples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

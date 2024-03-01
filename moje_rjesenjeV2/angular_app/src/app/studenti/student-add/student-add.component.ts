@@ -58,10 +58,13 @@ export class StudentAddComponent implements OnInit {
   snimi() {
     this.studentSnimiEndpoint.obradi(this.noviStudent!).subscribe({
       next: (x) => {
+        porukaSuccess('Uspjesno studentSnimiEndpoint....');
         this.router.navigate(['/studenti']);
         this.noviStudent = null;
       },
-      error: (x) => {},
+      error: (x) => {
+        porukaError('Error studentSnimiEndpoint' + x.error);
+      },
     });
   }
 }

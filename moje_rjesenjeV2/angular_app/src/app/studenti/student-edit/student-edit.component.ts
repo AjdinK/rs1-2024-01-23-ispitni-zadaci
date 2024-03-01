@@ -23,10 +23,9 @@ export class StudentEditComponent implements OnInit {
     private dataService: DataService,
     private studentSnimiEndpoint: StudentSnimiEndpoint
   ) {}
+
   odabraniStudent: StudentSnimiRequest = null;
   opstinaPodaci: any = null;
-  modalTitle: string = '';
-  defaultOpstinaId: number;
 
   ngOnInit(): void {
     this.fetchOpstina();

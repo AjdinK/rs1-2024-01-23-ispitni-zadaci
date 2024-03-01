@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-      "Id": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\New folder\\webapi\\FIT_Api_Examples\\wwwroot\\favicon.ico",
+      "Id": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenjeV2\\webapi\\FIT_Api_Examples\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\New folder\\webapi\\FIT_Api_Examples\\wwwroot\\index.html",
+      "Id": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenjeV2\\webapi\\FIT_Api_Examples\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\New folder\\webapi\\FIT_Api_Examples\\wwwroot\\profile_images\\8a6c995c-6ab8-4695-944d-8d35cc2e84a9.jpg",
+      "Id": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenjeV2\\webapi\\FIT_Api_Examples\\wwwroot\\profile_images\\8a6c995c-6ab8-4695-944d-8d35cc2e84a9.jpg",
       "PackagePath": "staticwebassets\\profile_images\\8a6c995c-6ab8-4695-944d-8d35cc2e84a9.jpg"
     },
     {
-      "Id": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\New folder\\webapi\\FIT_Api_Examples\\wwwroot\\profile_images\\empty.png",
+      "Id": "c:\\Users\\loww\\Downloads\\rs1-2024-01-23-ispitni-zadaci\\moje_rjesenjeV2\\webapi\\FIT_Api_Examples\\wwwroot\\profile_images\\empty.png",
       "PackagePath": "staticwebassets\\profile_images\\empty.png"
     },
     {
