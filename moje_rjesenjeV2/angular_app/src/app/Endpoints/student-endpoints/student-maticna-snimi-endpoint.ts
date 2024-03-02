@@ -10,8 +10,7 @@ export class StudentMaticnaSnimiEndpoint
 {
   constructor(private httpKlijent: HttpClient) {}
   obradi(request: StudentMaticnaSnimiRequest): Observable<number> {
-    let url =
-      MojConfig.adresa_servera + '/StudentMaticna/Get?request=' + request;
+    let url = MojConfig.adresa_servera + '/StudentMaticna/Snimi';
     return this.httpKlijent.post<number>(url, request);
   }
 }
@@ -20,7 +19,7 @@ export interface StudentMaticnaSnimiRequest {
   akademskaGodinaId: number;
   godinaStudija: number;
   obnova: boolean;
-  zimskiSemesterOvjera: Date;
+  zimskiSemesterUpis: Date;
   cijenaSkolarine: number;
   evidentiraoKorsinikId: number;
 }

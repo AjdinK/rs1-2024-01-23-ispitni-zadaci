@@ -63,7 +63,12 @@
           <input disabled [value]="x.zimskiSemesterOvjera | date" />
         </td>
         <td>{{ x.evidentiraoKorsinik.korisnickoIme }}</td>
-        <td><a class="btn btn-link">Ovjeri zimski semestar </a> <br /></td>
+        <td>
+          <a (click)="ovjeriZimski(x)" class="btn btn-link"
+            >Ovjeri zimski semestar
+          </a>
+          <br />
+        </td>
       </tr>
     </tbody>
   </table>
@@ -87,26 +92,48 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLiveLabel">Novi semestar za</h5>
-        <button type="button" class="btn-close" aria-label="Close"></button>
+        <button
+          type="button"
+          class="btn-close"
+          aria-label="Close"
+          (click)="zatvori()"
+        ></button>
       </div>
       <div class="modal-body">
         <div class="mb-3">
           <label class="form-label">Datum</label>
-          <input class="form-control" type="date" placeholder="Datum" />
+          <input
+            class="form-control"
+            type="date"
+            placeholder="Datum"
+            [(ngModel)]="this.upisNoviSemseter.zimskiSemesterUpis"
+          />
         </div>
         <div class="mb-3">
           <label class="form-label">Godina studija</label>
-          <input class="form-control" placeholder="Godina studija" />
+          <input
+            class="form-control"
+            placeholder="Godina studija"
+            [(ngModel)]="this.upisNoviSemseter.godinaStudija"
+          />
         </div>
 
         <div class="mb-3">
           <label class="form-label">Ak godina</label>
-          <select class="form-control"></select>
+          <select class="form-control">
+            <option *ngFor="let x of this.akademskaGodinaPodaci" [value]="x.id">
+              {{ x.opis }}
+            </option>
+          </select>
         </div>
 
         <div class="mb-3">
           <label class="form-label">Cijena školarine</label>
-          <input class="form-control" placeholder="Cijena školarine" />
+          <input
+            class="form-control"
+            placeholder="Cijena školarine"
+            [(ngModel)]="this.upisNoviSemseter.cijenaSkolarine"
+          />
         </div>
 
         <div class="mb-3 form-check">
@@ -114,13 +141,73 @@
             type="checkbox"
             class="form-check-input"
             placeholder="Obnova godine"
+            [(ngModel)]="this.upisNoviSemseter.obnova"
           />
           <label class="form-check-label">Obnova godine</label>
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" (click)="zatvori()">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary" (click)="snimi()">
+          Save changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div
+  *ngIf="this.novaOvjera"
+  class="modal fade show"
+  id="exampleModalLive"
+  tabindex="-1"
+  aria-labelledby="exampleModalLiveLabel"
+  aria-modal="true"
+  role="dialog"
+  style="display: block"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLiveLabel">
+          Ovjera za {{ this.studentMaticnaPodaci?.studentIme }}
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          aria-label="Close"
+          (click)="zatvori()"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label class="form-label">Datum</label>
+          <input
+            class="form-control"
+            type="date"
+            placeholder="Datum"
+            [(ngModel)]="this.novaOvjera.zimskiSemesterOvjera"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Napmena</label>
+          <input
+            class="form-control"
+            placeholder="Cijena školarine"
+            [(ngModel)]="this.novaOvjera.napomena"
+          />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="zatvori()">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary" (click)="snimiOvjeru()">
+          Save changes
+        </button>
       </div>
     </div>
   </div>

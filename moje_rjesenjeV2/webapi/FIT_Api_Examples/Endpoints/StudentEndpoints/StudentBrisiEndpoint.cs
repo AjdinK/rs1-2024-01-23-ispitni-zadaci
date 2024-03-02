@@ -18,7 +18,7 @@ namespace FIT_Api_Examples.Endpoints.StudentEndpoints
             _applicationDbContext = applicationDbContext;
         }
 
-        [HttpDelete("student/brisi")]
+        [HttpDelete("Student/Brisi")]
         public override async Task<int> Obradi([FromQuery] int request, CancellationToken cancellationToken)
         {
             var student = await _applicationDbContext.Student.FindAsync(request);
