@@ -11,12 +11,13 @@ namespace FIT_Api_Examples.Data
         public DbSet<Student> Student { get; set; }
         public DbSet<Predmet> Predmet { get; set; }
         public DbSet<Ispit> Ispit { get; set; }
-        public DbSet<PrijavaIspita> PrijavaIspita{ get; set; }
-        public DbSet<AutentifikacijaToken> AutentifikacijaToken{ get; set; }
-        public DbSet<Nastavnik> Nastavnik{ get; set; }
-        public DbSet<KorisnickiNalog> KorisnickiNalog{ get; set; }
-        public DbSet<Obavijest> Obavijest{ get; set; }
+        public DbSet<PrijavaIspita> PrijavaIspita { get; set; }
+        public DbSet<AutentifikacijaToken> AutentifikacijaToken { get; set; }
+        public DbSet<Nastavnik> Nastavnik { get; set; }
+        public DbSet<KorisnickiNalog> KorisnickiNalog { get; set; }
+        public DbSet<Obavijest> Obavijest { get; set; }
         public DbSet<AkademskaGodina> AkademskaGodina { get; set; }
+        public DbSet<UpisAkGodina> UpisAkGodina { get; set; }
 
         public ApplicationDbContext(
             DbContextOptions options) : base(options)
@@ -26,8 +27,6 @@ namespace FIT_Api_Examples.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-
-          
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

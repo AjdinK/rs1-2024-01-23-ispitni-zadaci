@@ -10,7 +10,7 @@ export class StudentSnimiEndpoint
 {
   constructor(private httpKlijent: HttpClient) {}
   obradi(request: StudentSnimiRequest): Observable<number> {
-    let url = 'https://localhost:5001/student/snimi';
+    let url = MojConfig.adresa_servera + '/student/snimi';
     return this.httpKlijent.post<number>(url, request);
   }
 }
