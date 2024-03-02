@@ -4,6 +4,11 @@ import { ActivatedRoute } from '@angular/router';
 import { MojConfig } from '../moj-config';
 import { HttpClient } from '@angular/common/http';
 import { StudentMaticnaGetEndpoint } from '../Endpoints/student-endpoints/student-maticna-get-endpoint';
+import {
+  StudentMaticnaSnimiEndpoint,
+  StudentMaticnaSnimiRequest,
+} from '../Endpoints/student-endpoints/student-maticna-snimi-endpoint';
+import { AutentifikacijaHelper } from '../_helpers/autentifikacija-helper';
 
 declare function porukaSuccess(a: string): any;
 declare function porukaError(a: string): any;
@@ -17,10 +22,11 @@ export class StudentMaticnaknjigaComponent implements OnInit {
   constructor(
     private httpKlijent: HttpClient,
     private route: ActivatedRoute,
-    private studentMaticnaGetEndpoint: StudentMaticnaGetEndpoint
+    private studentMaticnaGetEndpoint: StudentMaticnaGetEndpoint,
+    private studentMaticnaSnimiEndpoint: StudentMaticnaSnimiEndpoint
   ) {}
   studentId: number;
-  upisNoviSemseter: any;
+  upisNoviSemseter: StudentMaticnaSnimiRequest | null = null;
   studentMaticnaPodaci: StudentMaticnaGetResponse | null = null;
 
   ovjeriLjetni(s: any) {}
@@ -48,7 +54,15 @@ export class StudentMaticnaknjigaComponent implements OnInit {
 
   noviUpis() {
     this.upisNoviSemseter = {
-      id: 0,
+      id: this.studentId,
+      akademskaGodinaId: 1,
+      godinaStudija: 1,
+      obnova: false,
+      zimskiSemesterOvjera: new Date(Date.now()),
+      cijenaSkolarine: 1,
+      evidentiraoKorsinikId:
+        AutentifikacijaHelper.getLoginInfo().autentifikacijaToken
+          .korisnickiNalog.id,
     };
   }
 }
